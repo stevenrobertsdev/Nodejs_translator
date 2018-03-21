@@ -4,4 +4,14 @@ const   fs = require('fs'),
 
 const keys = require('./API-KEYS');
 
+const argv = yargs
+        .option("lang", {
+            description: "Select the langauge",
+            alias: "l",
+            demand: true
+        })
+        .help()
+        .argv;
+
+
 
