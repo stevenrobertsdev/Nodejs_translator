@@ -7,13 +7,13 @@ Firstly run `npm install` to install the dependencies for the app.
 ### API keys
 Yandex Translation API is being used for this app, to run the translator you will need to generate a new API key. Go to [the Yandex Translation webiste](https://tech.yandex.com/translate/) and sign up and generate a new API key. 
 
-Once done, create a new folder in the root directory titled `API-KEYS.js`. Inside this folder include the code
+Once done, create a new folder in the root directory titled `API-KEYS.js`. Inside this new file include the code
 ```
 module.exports = {
     yandexKey: "YOUR API KEY HERE"
 }
 ```
-This will allow the rest of the application to inject your API key into the request.
+This will allow the rest of the application to inject your API key into the request url.
 
 
 ### Using the app
