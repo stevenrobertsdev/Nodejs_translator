@@ -1,5 +1,5 @@
 # Nodejs_translator
-A Node.js app that takes text, translates it into a chosen language and then saves it into a file.
+A Node.js app that takes text and translates it into a chosen language.
 
 ### Installation
 Firstly run `npm install` to install the dependencies for the app.
